@@ -15,3 +15,10 @@ For the classification phase of this project, I used training set of dataset pro
 In Kaggle competition, competitors were asked to predict the class label (one of the 5 categories) for each of the 53576 test images and the predictions were scored on the quadratic weighted kappa metric. Since the labesl of test dataset is not available at the time of this project, I splitted the 35126 images in trainig dataset to train and test sets for my experiments.  some example of images in the dataset are as shown below: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/montage.png" width="450"></p>
 
+## Dataset analysis:
+The summary of initail analysis of dataset is as below mentioned: 
+* Dataset is highly imbalanced: to deal with this issue I set up the experiments in two modes, sub_sampling and over_sampling by data augmentation
+* Image resolution : Images are provided in different sizes, the avarage image size is (3000x2000) pixels 
+* Image orientation : Images are from both left and right eyes and they are not registered
+
+
