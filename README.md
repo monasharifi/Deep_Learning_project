@@ -26,7 +26,7 @@ The summary of initail analysis of dataset is as below mentioned:
 The ideas that I tried for pre-processing are: 
 * <b>Histogram equalization : </b>Our original input images are 2D color images and I tried image enhancement by histogram equalization in two settings : color image enhancement, G channel Enhancement
 * <b>Brightness and Contrast adjustment:</b> Since Images taken with different cameras, they come with different illuminations and requires some brightness and contract adjustment
-* <b>Cropping centering at Optic nerve:</b> Images in dataset are from both left and right eyes and they come in different orientation, scale and zoom level. Based on this, I tried to put the center of cropping at optic nerve and crop proportinal with respect to image scale. The code for finding the optic nerve actually didn't work very well on all images and this approach was tried but not used in our final experimental results. 
+* <b>Cropping by centering at Optic nerve:</b> Images in dataset are from both left and right eyes and they come in different orientation, scale and zoom level. Based on this, I tried to put the center of cropping at optic nerve and crop proportinal with respect to image scale. The code for finding the optic nerve actually didn't work very well on all images and this approach was tried but not used in our final experimental results. 
 * <b>Cropping with respect to image scale:</b> To remove some background region, I just removed some boundry pixels by cropping with some ratio which is proportianl to image size. 
 
 ## Inital models :
@@ -35,6 +35,8 @@ The purpose of initial models is to get more familiar with data and try some qui
 * <b> Base model Evaluation and conclusion: </b>
 
 ## More experiments using AlexNet+Weights: 
+Most of our evaulations and results are based on pre-trained Alexnet Model. We used all the pre-trained weights except for the last FC layer('fc8') and finetune Alexnet by feeding our Fundus images for the binary classification setting. Our evaluation metric for each experiment is simply Accuracy of test set which was seperated from the train set at the first stage and non of these images were shown to the Model at training time. 
+Experiments are set up in binary classification mode between Healthy group( mentioned with label 0) and different stages of diseased group(mentioned by class 1 to 4). The last experiment is between Healthy group and all diseased group merged together. 
 
 ## Results: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
