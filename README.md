@@ -48,8 +48,10 @@ The other idead that we tried for improving the results is using only Enhanced G
 ## Future Plan: 
 
 ## Related pevious work: 
-* <b> State of the art method </b>The state of the art method for DR classification task has been published by Google and their collaborators in JAMA 2015. The results is based on a dataset of 128K subject which is not the same as the datatset we used and the best performed model is Inception V3. The finding of this paper is :</br> 
+* <b> State of the art method: </b>The state of the art method for DR classification task has been published by Google and their collaborators in JAMA 2015. The results is based on a dataset of 128K subject which is not the same as the datatset we used and the best performed model is Inception V3. The finding of this paper is :</br> 
  In 2 validation sets of 9963 images and 1748 images, at the operating point selected for high specificity, the algorithm had 90.3% and 87.0% sensitivity and 98.1% and 98.5% specificity for detecting referable diabetic retinopathy, defined as moderate or worse diabetic retinopathy or referable macular edema by the majority decision of a panel of at least 7 US board-certified ophthalmologists. At the operating point selected for high sensitivity, the algorithm had 97.5% and 96.1% sensitivity and 93.4% and 93.9% specificity in the 2 validation sets.more details can be found at https://jamanetwork.com/journals/jama/fullarticle/2588763
+ <b> Top deep learning winner in kaggle competition</b> The winning method of Diabetic retinopathy competition was not Deep Learning based but there are some proposed Deep learning approaches whith the highest rank of 5th in leader board. They proposed their own architecture and also benefit from data augmentation. The evaulation metric for their performance is Kappa metric which is not the one I used in this project and that makes comparison difficult. The details of the top deep learning proposed method can be found in this repo: http://jeffreydf.github.io/diabetic-retinopathy-detection/#code-models-and-example-activations
+ * 
 
 
 
