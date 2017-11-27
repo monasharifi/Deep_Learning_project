@@ -37,8 +37,8 @@ The purpose of initial models is to get more familiar with data and try some qui
 ## More experiments using AlexNet+Weights: 
 Most of our evaulations and results are based on pre-trained Alexnet Model. We used all the pre-trained weights except for the last FC layer('fc8') and finetune Alexnet by feeding our Fundus images for the binary classification setting. Our evaluation metric for each experiment is simply Accuracy of test set which was seperated from the train set at the first stage and non of these images were shown to the Model at training time. </br>
 Experiments are set up in binary classification mode between Healthy group( mentioned with label 0) and different stages of diseased group(mentioned by class 1 to 4). The last experiment is between Healthy group and all diseased group merged together. </br> 
-Since the dataset is highly imbalanced, we tried our experiments by subsampling the major class to the number of minor class and also tried some experiments with data augmentation. 
-
+Since the dataset is highly imbalanced, we tried our experiments by subsampling the major class to the number of minor class and also tried some experiments with data augmentation. </br> 
+The other idead that we tried for improving the results is using only Enhanced G channel of image as input instead of original color image. </br> 
 
 ## Results: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
