@@ -24,10 +24,10 @@ The summary of initail analysis of dataset is as below mentioned:
 
 ## Pre-processing :
 The ideas that I tried for pre-processing are: 
-* Histogram equalization : Our original input images are 2D color images and I tried image enhancement by histogram equalization in two settings : color image enhancement, G channel Enhancement
-* Brightness and Contrast adjustment: Since Images taken with different cameras, they come with different illuminations and requires some brightness and contract adjustment
-* Cropping centering at Optic nerve: Images in dataset are from both left and right eyes and they come in different orientation, scale and zoom level. Based on this, I tried to put the center of cropping at optic nerve and crop proportinal with respect to image scale. The code for finding the optic nerve actually didn't work very well on all images and this approach was tried but not used in our final experimental results. 
-* Cropping with respect to image scale:  To remove some background region, I just removed some boundry pixels by cropping with some ratio which is proportianl to image size. 
+* <b>Histogram equalization : </b>Our original input images are 2D color images and I tried image enhancement by histogram equalization in two settings : color image enhancement, G channel Enhancement
+* <b>Brightness and Contrast adjustment:</b> Since Images taken with different cameras, they come with different illuminations and requires some brightness and contract adjustment
+* <b>Cropping centering at Optic nerve:</b> Images in dataset are from both left and right eyes and they come in different orientation, scale and zoom level. Based on this, I tried to put the center of cropping at optic nerve and crop proportinal with respect to image scale. The code for finding the optic nerve actually didn't work very well on all images and this approach was tried but not used in our final experimental results. 
+* <b>Cropping with respect to image scale:</b> To remove some background region, I just removed some boundry pixels by cropping with some ratio which is proportianl to image size. 
 
 ## Inital models :
 
