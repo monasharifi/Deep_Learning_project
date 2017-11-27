@@ -22,7 +22,13 @@ The summary of initail analysis of dataset is as below mentioned:
 * Image orientation : Images are from both left and right eyes and they are not registered
 * Image quality: Images have different brightness and illuminations and have black background, the position of eye image is also different with respect background. 
 
-## Some pre-processing methods that I tried:
+## Pre-processing :
+The ideas that I tried for pre-processing are: 
+* Histogram equalization
+* Background removal
+* Brightness adjustment
+* Contrast adjustment
+
 
 
 
