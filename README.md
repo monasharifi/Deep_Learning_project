@@ -20,5 +20,9 @@ The summary of initail analysis of dataset is as below mentioned:
 * Dataset is highly imbalanced: to deal with this issue I set up the experiments in two modes, sub_sampling and data augmentation
 * Image resolution : Images are provided in different sizes, the avarage image size is (3000x2000) pixels 
 * Image orientation : Images are from both left and right eyes and they are not registered
+* Image quality: Images have different brightness and illuminations and have black background, the position of eye image is also different with respect background. 
+
+## Some pre-processing methods that I tried:
+
 
 
