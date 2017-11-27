@@ -30,6 +30,9 @@ The ideas that I tried for pre-processing are:
 * <b>Cropping with respect to image scale:</b> To remove some background region, I just removed some boundry pixels by cropping with some ratio which is proportianl to image size. 
 
 ## Inital models :
+The purpose of initial models is to get more familiar with data and try some quick and tiny experiments to get some ideads about the proper and effective settings mainly for image pre-processing approaches. For this purpose, I just got a tiny subsampled version of two classes and run some experiments using a network with a few convolutial layers. The details can be found as below mentioned: 
+* <b>Base Model Architecture: </b> 
+* <b> Base model Evaluation and conclusion: </b>
 
 ## More experiments using AlexNet+Weights: 
 
