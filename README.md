@@ -34,7 +34,7 @@ The ideas that I tried for pre-processing are:
 ## More experiments using AlexNet+Weights: 
 
 ## Results: 
-<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="350"></p>
+<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="550"></p>
 
 ## Oversampling(data augmentation) + (AlexNet+Weights)
 
