@@ -10,10 +10,6 @@ Based on the severity of disease, DR can be categorized as Mild NPDR, Moderate N
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/DR_overview.png" width="450"></p>
 
 ## Dataset:
-For this 
-Class	Name	Number of images	Percentage
-0	Normal	25810	73.48%
-1	Mild NPDR	2443	6.96%
-2	Moderate NPDR	5292	15.07%
-3	Severe NPDR	873	2.48%
-4	PDR	708	2.01%
+For the classification phase of this project, I used training set of dataset provided by kaggle. The detail information of sample distribution among classes provided in the following table: 
+<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/dataset.png" width="350"></p>
+
