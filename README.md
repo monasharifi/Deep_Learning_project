@@ -29,6 +29,19 @@ The ideas that I tried for pre-processing are:
 * Brightness adjustment
 * Contrast adjustment
 
+## Inital models :
+
+## More experiments using AlexNet+Weights: 
+
+## Subsampling + (AlexNet+Weights)
+
+## Oversampling(data augmentation) + (AlexNet+Weights)
+
+## Localization: 
+
+## Future Plan: 
+
+
 
 
 
