@@ -12,4 +12,6 @@ Based on the severity of disease, DR can be categorized as Mild NPDR, Moderate N
 ## Dataset:
 For the classification phase of this project, I used training set of dataset provided by kaggle. The detail information of sample distribution among classes provided in the following table: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/dataset.png" width="350"></p>
-In Kaggle competition, competitors were asked to predict the class label (one of the 5 categories) for each of the 53576 test images and the predictions were scored on the quadratic weighted kappa metric. Since the labesl of test dataset is not available at the time of this project, I splitted the trainig dataset to train and test sets for my experiments.  
+In Kaggle competition, competitors were asked to predict the class label (one of the 5 categories) for each of the 53576 test images and the predictions were scored on the quadratic weighted kappa metric. Since the labesl of test dataset is not available at the time of this project, I splitted the 35126 images in trainig dataset to train and test sets for my experiments.  some example of images in the dataset are as shown below: 
+<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/montage.png" width="450"></p>
+
