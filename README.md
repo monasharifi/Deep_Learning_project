@@ -37,7 +37,7 @@ The purpose of initial models is to get more familiar with data and try some qui
 * <b>Base Model Architecture: </b> 32, 3*3 Conv/Relu/pool -32, 3*3 Conv/Relu/pool - 64, 3*3 Conv/Relu/ pool - FC1,128 , FC2, 128
 * <b> Base model Evaluation and conclusion: </b> 
 This simple model is used for some experiments on a tiny subset of only two classes. I used only 300 samples of class 0,1 and could improved the classification result on test set by almost 11% using proper pre-processing and data augmentation.
-<t>* The preprocessings that I found useful could be summarized as cropping(back ground removal), Image enhancement, using only Enhanced Green channel. 
+</t>* The preprocessings that I found useful could be summarized as cropping(back ground removal), Image enhancement, using only Enhanced Green channel. 
 * For Image augmentation, I tried different methods like rotation by random angle, flipping both horizontally and vertically, zoom in by cropping and I found out that flipping and rotation are more useful in this application. Rotation by random angle and also zoom in by cropping could cause the problem of removing some informative regions. 
 
 ## More experiments using AlexNet+Weights: 
@@ -47,7 +47,8 @@ Since the dataset is highly imbalanced, we tried our experiments by subsampling 
 The other idead that we tried for improving the results is using only Enhanced G channel of image as input instead of original color image. </br> 
 
 ## Results: 
-* Binary classification: 
+* Binary classification:</br>
+For the experimental results listed in the following table we used the same training parameters for fair comparison. 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
 
 ## Future Plan: 
