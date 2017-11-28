@@ -9,7 +9,8 @@ The grading process consists of recognising very fine details, such as microaneu
 Based on the severity of disease, DR can be categorized as Mild NPDR, Moderate NPDR, Severe NPDR and PDR. Some examples of images in different categories are shown below: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/DR_overview.png" width="450"></p>
 </br> 
-
+The problem of DR classification task using Fundus images has been already adressed in previous works with the goal of providing an automatic system for disease prediction. The altimate goal of this project is improving this prediction by adding another image modality to the analysis which is called OCTA(OCT angiography). OCTA is a new image modality that could give us a better view of vascular system in the deep retina and especially in the early stage of the disease this image could help more in early diagnosis of the disease. </br> 
+The initial step of the project is to find out the power of Fundus image in different stages of DR which is mainly covered in this report. Altimately we will add OCTA analysis and extract features of OCTA images in order to improve the Fundus based model. 
 
 ## Dataset:
 For the classification phase of this project, I used training set of dataset provided by kaggle. The detail information of sample distribution among classes provided in the following table: 
