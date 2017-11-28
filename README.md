@@ -16,7 +16,7 @@ This project tasks could be divided into 3 stages:
 * <b>Step2:</b> Improving the model for detecting DR stage by adding OCTA image features 
 * <b>Step3:</b> Localizing the diseased areas or signiture in pathological cases 
 
-By this time we haven't received the full dataset of OCTA images and since the dataset size is small we put this stage of work as the future work. We also tried some localization 
+By this time we haven't received the full dataset of OCTA images and since the dataset size is small we will address this stage as the future work. Step 1 will be the main focus of this report, we also tried some localization tegniques and will report the initial results.
 
 ## Dataset:
 For the classification phase of this project, I used training set of dataset provided by kaggle. The detail information of sample distribution among classes provided in the following table: 
