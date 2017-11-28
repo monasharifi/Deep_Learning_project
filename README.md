@@ -71,8 +71,8 @@ http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper
 The brief explanation of the applied algorithm is using vgg-16 convolutional layers to extact image features, adding global average pooling after the last convolution layer, finding feature vector and apply classification using softmax. (this implementation is a collaborative work with my lab mate Dong guo). The method is not working as we expected but here I am sharing some initial results: 
 
 
-<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/step_7000_image_test_10.png" width="450"></p>
-<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/step_7000_cmap_10.png" width="450"></p>
+<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/step_7000_image_test_9.png" width="450"></p>
+<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/step_7000_cmap_9.png" width="450"></p>
 
 
 ## Future Plan: 
