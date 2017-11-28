@@ -1,13 +1,15 @@
 # Detecting Diabetic Retinopathy grading in Retinal Fundus Photographs
 This is the report of my progress on a classification problem based on a Kaggle competition launched in 2015(https://www.kaggle.com/c/diabetic-retinopathy-detection). 
-## Introduction: 
+## Introduction and Motivation: 
 Diabetic retinopathy (DR) is the leading cause of blindness in the working-age population of the developed world and is estimated to affect over 93 million people. (From the competition website.)
 
-The grading process consists of recognising very fine details, such as microaneurysms, to some bigger features, such as exudates, and sometimes their position relative to each other on images of the eye(more detail information can be found at https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/582710/Grading_definitions_for_referrable_disease_2017_new_110117.pdf . An annotated image is shown below showing different pathologies related to DR.
+The grading process consists of recognising very fine details, such as microaneurysms, to some bigger features, such as exudates, and sometimes their position relative to each other on images of the eye(more detail information can be found at https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/582710/Grading_definitions_for_referrable_disease_2017_new_110117.pdf . An annotated image is shown below showing different signitures of pathologies related to DR.
 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/biomarkers_1.png" width="550"></p>
 Based on the severity of disease, DR can be categorized as Mild NPDR, Moderate NPDR, Severe NPDR and PDR. Some examples of images in different categories are shown below: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/DR_overview.png" width="450"></p>
+</br> 
+
 
 ## Dataset:
 For the classification phase of this project, I used training set of dataset provided by kaggle. The detail information of sample distribution among classes provided in the following table: 
@@ -41,11 +43,11 @@ Since the dataset is highly imbalanced, we tried our experiments by subsampling 
 The other idead that we tried for improving the results is using only Enhanced G channel of image as input instead of original color image. </br> 
 
 ## Results: 
+* Binary classification: 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
 
-## Localization: 
-
 ## Future Plan: 
+## Localization: 
 
 ## Related pevious work: 
 * <b> State of the art method: </b>The state of the art method for DR classification task has been published by Google and their collaborators in JAMA 2015. The results is based on a dataset of 128K subject which is not the same as the datatset we used and the best performed model is Inception V3. The finding of this paper is :</br> 
