@@ -34,8 +34,8 @@ The ideas that I tried for pre-processing are:
 
 ## Initial models :
 The purpose of initial models is to get more familiar with data and try some quick and tiny experiments to get some ideads about the proper and effective settings mainly for image pre-processing approaches. For this purpose, I just got a tiny subsampled version of two classes and run some experiments using a network with a few convolutial layers. The details can be found as below mentioned: 
-* <b>Base Model Architecture: </b> 
-* <b> Base model Evaluation and conclusion: </b>
+* <b>Base Model Architecture: </b> 32, 3*3 Conv/Relu/pool -32, 3*3 Conv/Relu/pool - 64, 3*3 Conv/Relu/ pool - FC1,128 , FC2, 128
+* <b> Base model Evaluation and conclusion: </b> 
 
 ## More experiments using AlexNet+Weights: 
 Most of our evaulations and results are based on pre-trained Alexnet Model. We used all the pre-trained weights except for the last FC layer('fc8') and finetune Alexnet by feeding our Fundus images for the binary classification setting. Our evaluation metric for each experiment is simply Accuracy of test set which was seperated from the train set at the first stage and non of these images were shown to the Model at training time. </br>
