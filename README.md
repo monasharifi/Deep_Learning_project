@@ -29,15 +29,15 @@ The summary of initail analysis of dataset is as below mentioned:
 The ideas that I tried for pre-processing are: 
 * <b>Histogram equalization : </b>Our original input images are 2D color images and I tried image enhancement by histogram equalization in two settings : color image enhancement, G channel Enhancement
 * <b>Brightness and Contrast adjustment:</b> Since Images taken with different cameras, they come with different illuminations and requires some brightness and contract adjustment
-* <b>Cropping by centering at Optic nerve:</b> Images in dataset are from both left and right eyes and they come in different orientation, scale and zoom level. Based on this, I tried to put the center of cropping at optic nerve and crop proportinal with respect to image scale. The code for finding the optic nerve actually didn't work very well on all images and this approach was tried but not used in our final experimental results. 
-* <b>Cropping with respect to image scale:</b> To remove some background region, I just removed some boundry pixels by cropping with some ratio which is proportianl to image size. 
+⋅⋅* <b>Cropping by centering at Optic nerve:</b> Images in dataset are from both left and right eyes and they come in different orientation, scale and zoom level. Based on this, I tried to put the center of cropping at optic nerve and crop proportinal with respect to image scale. The code for finding the optic nerve actually didn't work very well on all images and this approach was tried but not used in our final experimental results. 
+⋅⋅* <b>Cropping with respect to image scale:</b> To remove some background region, I just removed some boundry pixels by cropping with some ratio which is proportianl to image size. 
 
 ## Initial models :
 The purpose of initial models is to get more familiar with data and try some quick and tiny experiments to get some ideads about the proper and effective settings mainly for image pre-processing approaches. For this purpose, I just got a tiny subsampled version of two classes and run some experiments using a network with a few convolutial layers. The details can be found as below mentioned: 
 * <b>Base Model Architecture: </b> 32, 3*3 Conv/Relu/pool -32, 3*3 Conv/Relu/pool - 64, 3*3 Conv/Relu/ pool - FC1,128 , FC2, 128
 * <b> Base model Evaluation and conclusion: </b> 
 This simple model is used for some experiments on a tiny subset of only two classes. I used only 300 samples of class 0,1 and could improved the classification result on test set by almost 11% using proper pre-processing and data augmentation.
-* The preprocessings that I found useful could be summarized as cropping(back ground removal), Image enhancement, using only Enhanced Green channel. 
+<t>* The preprocessings that I found useful could be summarized as cropping(back ground removal), Image enhancement, using only Enhanced Green channel. 
 * For Image augmentation, I tried different methods like rotation by random angle, flipping both horizontally and vertically, zoom in by cropping and I found out that flipping and rotation are more useful in this application. Rotation by random angle and also zoom in by cropping could cause the problem of removing some informative regions. 
 
 ## More experiments using AlexNet+Weights: 
