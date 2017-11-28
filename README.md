@@ -10,10 +10,11 @@ Based on the severity of disease, DR can be categorized as Mild NPDR, Moderate N
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/DR_overview.png" width="450"></p>
 </br> 
 The problem of DR classification task using Fundus images has been already adressed in previous works with the goal of providing an automatic system for disease prediction. The altimate goal of this project is improving this prediction by adding another image modality to the analysis which is called OCTA(OCT angiography). OCTA is a new image modality that could give us a better view of vascular system in the deep retina and especially in the early stage of the disease this image could help more in early diagnosis of the disease. </br> 
+
 This project tasks could be divided into 3 stages: 
-* Step1: Evaluate the Fundus image dataset in detecting different stages 
-* Step2: Improving the model for detecting DR stage by adding OCTA image features 
-* Step3: Localizing the diseased areas or signiture in pathological cases 
+* <b>Step1:</b> Evaluate the Fundus image dataset in detecting different stages 
+* <b>Step2:</b> Improving the model for detecting DR stage by adding OCTA image features 
+* <b>Step3:</b> Localizing the diseased areas or signiture in pathological cases 
 
 By this time we haven't received the full dataset of OCTA images and since the dataset size is small we put this stage of work as the future work. We also tried some localization 
 
