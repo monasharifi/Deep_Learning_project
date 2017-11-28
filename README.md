@@ -64,9 +64,13 @@ For the experimental results listed in the following table we used the same trai
 | ------------- |:-------------:|-------------|-------------|-------------:|
 | AlexNet+Weights   | 0/4 | Subsample class 0 | Resize, crop,color image  | 0.8680 | 
 
+## Localization: 
+The motivation for this work is to find the spatial distribution of diseased signiture in weakly supervised manner. By weakly suppervised we mean just by having image label we want to try finding the diseased sreas with respect to each pathology(class 1-4). There are some previous work that performed this task using patch based annotated images which is not the method of interest for this project. 
+The method that we tried as the first experimet is based on this paper: 
+http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf
+The brief explanation of the applied algorithm is : 
 
 ## Future Plan: 
-## Localization: 
 
 ## Related pevious work: 
 * <b> State of the art method: </b>The state of the art method for DR classification task has been published by Google and their collaborators in JAMA 2015. The results is based on a dataset of 128K subject which is not the same as the datatset we used and the best performed model is Inception V3. The finding of this paper is :</br> 
