@@ -50,6 +50,8 @@ The other idead that we tried for improving the results is using only Enhanced G
 * <b>Binary classification:</b></br>
 For the experimental results listed in the following table we used the same training parameters for fair comparison. 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
+</br>
+* <b>Improved Binary classification result by better tunning of model:</b>
 
 ## Future Plan: 
 ## Localization: 
