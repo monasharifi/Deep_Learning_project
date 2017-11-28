@@ -68,6 +68,8 @@ For the experimental results listed in the following table we used the same trai
 * <b> Top deep learning winner in kaggle competition</b> The winning method of Diabetic retinopathy competition was not Deep Learning based but there are some proposed Deep learning approaches whith the highest rank of 5th in leader board. They proposed their own architecture and also benefit from data augmentation. The evaulation metric for their performance is Kappa metric which is not the one I used in this project and that makes comparison difficult. The details of the top deep learning proposed method can be found in this repo: http://jeffreydf.github.io/diabetic-retinopathy-detection/#code-models-and-example-activations
  * <b> Similar not published work for comparison </b> Since in this project I did binary classification between class pairs and usied Accuracy as the evaluation metric, it is dificult to compare the results with kaggle competition similar works who used a different valuation metric(Kappa). There is a not published work based on using the pretrained Inception V3 for doing binary classification that could be used for comparision. The results that they acheived is summarized as below: 
  <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/previous_work.png" width="450"></p>
+ Reference : https://github.com/monasharifi/Deep_Learning_project/blob/master/tamkinusirifufu-Deep%20CNNs%20for%20diabetic%20retinopathy-report.pdf
+ 
 
 
 
