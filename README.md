@@ -47,7 +47,7 @@ Since the dataset is highly imbalanced, we tried our experiments by subsampling 
 The other idead that we tried for improving the results is using only Enhanced G channel of image as input instead of original color image. </br> 
 
 ## Results: 
-* Binary classification:</br>
+* <b>Binary classification:</b></br>
 For the experimental results listed in the following table we used the same training parameters for fair comparison. 
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
 
