@@ -55,7 +55,7 @@ The other idead that we tried for improving the results is using only Enhanced G
 ## Results: 
 * <b>Binary classification:</b></br>
 For the experimental results listed in the following table we used the same training parameters for fair comparison. 
-<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
+<p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="850"></p>
 
 * <b>Improved Binary classification result by better tunning of model:</b>
 
@@ -74,8 +74,7 @@ The brief explanation of the applied algorithm is using vgg-16 convolutional lay
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/step_7000_image_test_9.png" width="450"></p>
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/step_7000_cmap_9.png" width="450"></p>
 
-
-## Future Plan: 
+The results still are not good enough, the work could be improved a lot and it will be part of future work on this project. Apart from algorithm improvement we need more processing for images, one of the essential works is to remove the background and also enhance the image quality using image processing techniques. 
 
 ## Related pevious work: 
 * <b> State of the art method: </b>The state of the art method for DR classification task has been published by Google and their collaborators in JAMA 2015. The results is based on a dataset of 128K subject which is not the same as the datatset we used and the best performed model is Inception V3. The finding of this paper is :</br> 
@@ -85,7 +84,9 @@ The brief explanation of the applied algorithm is using vgg-16 convolutional lay
  <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/previous_work.png" width="450"></p>
  Reference : https://github.com/monasharifi/Deep_Learning_project/blob/master/tamkinusirifufu-Deep%20CNNs%20for%20diabetic%20retinopathy-report.pdf
  
-
+## Future Plan: 
+- Improving Fundus classification results bu adding OCTA features.
+- Improving Localization by adding more image processing steps and also try some new ideas dicussed in Zoom-in Net published in MICCAI 2016
 
 
 
