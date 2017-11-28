@@ -67,8 +67,9 @@ For the experimental results listed in the following table we used the same trai
 ## Localization: 
 The motivation for this work is to find the spatial distribution of diseased signiture in weakly supervised manner. By weakly suppervised we mean just by having image label we want to try finding the diseased sreas with respect to each pathology(class 1-4). There are some previous work that performed this task using patch based annotated images which is not the method of interest for this project. 
 The method that we tried as the first experimet is based on this paper: 
-http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf
-The brief explanation of the applied algorithm is : 
+http://cnnlocalization.csail.mit.edu/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf </br> 
+The brief explanation of the applied algorithm is using vgg-16 convolutional layers to extact image features, adding global average pooling after the last convolution layer, finding feature vector and apply classification using softmax. (this implementation is a collaborative work with my lab mate Dong guo). The method is not working as we expected but here I am sharing some initial results: 
+
 
 ## Future Plan: 
 
