@@ -52,12 +52,12 @@ For the experimental results listed in the following table we used the same trai
 <p align="center"><img src="https://github.com/monasharifi/Deep_Learning_project/blob/master/Results.png" width="650"></p>
 
 * <b>Improved Binary classification result by better tunning of model:</b>
-<p align="center">
+
 
 | Model        | Classes    | Data Sampling  | Data Pre_Processing | Accuracy|
 | ------------- |:-------------:|-------------|-------------|-------------:|
 | AlexNet+Weights   | 0/4 | Subsample class 0 | Resize, crop,color image  | 0.8680 | 
-</p>
+
 
 ## Future Plan: 
 ## Localization: 
